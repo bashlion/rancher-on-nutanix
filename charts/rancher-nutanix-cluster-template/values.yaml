@@ -13,7 +13,7 @@ cluster:
 cloudCredentialSecretName: "cattle-global-data:nutanix-pc-creds"
 
 # rke2 example
-kubernetesVersion: "v1.24.17+rke2r1"
+kubernetesVersion: "v1.27.15+rke2r1"
 
 # k3s example
 # kubernetesVersion: v1.24.17+k3s1
@@ -34,11 +34,11 @@ rke:
 # global nutanix nodepool configs. These configs can be overriden within each nodepool.
 global:
   nodepools:
-    cluster: PHX-SPOC020-1
-    project: BootcampInfra
-    vmImage: ubuntu-22.04-server-cloudimg-amd64.img
+    cluster: rancher-vmx-nodepool
+    project: Rancher
+    vmImage: Rancher-Ubuntu-22.04
     vmNetwork:
-    - vlan2010
+    - WWSP-Management
     vmCategories: 
     - AppType=Kubernetes
     cloudInit: |-
