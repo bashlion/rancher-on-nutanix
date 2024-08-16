@@ -1,7 +1,7 @@
 # Rancher cluster specific values
 cluster:
   # specify Rancher cluster name
-  name: rancher-nutanix-cluster
+  name: rke2-cls
 
   # specify Rancher cluster labels
   labels: {}
@@ -34,7 +34,7 @@ rke:
 # global nutanix nodepool configs. These configs can be overriden within each nodepool.
 global:
   nodepools:
-    cluster: rancher-vmx-nodepool
+    cluster: VMX-Karbon-AMD-MUM-AZ1
     project: Rancher
     vmImage: Rancher-Ubuntu-22.04
     vmNetwork:
