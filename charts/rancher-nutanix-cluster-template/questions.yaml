@@ -1,7 +1,7 @@
 questions:
 ## general
 - variable: cluster.name
-  default: rancher-on-nutanix-cluster
+  default: rke2-cls
   description: "Specify the name of the cluster"
   label: "Cluster Name"
   required: true
