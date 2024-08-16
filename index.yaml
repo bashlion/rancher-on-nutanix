@@ -5,12 +5,12 @@ entries:
       catalog.cattle.io/namespace: fleet-default
       catalog.cattle.io/type: cluster-template
     apiVersion: v1
-    created: "2024-08-16T13:04:24.367357755+05:30"
+    created: "2024-08-16T16:07:41.163057589+05:30"
     description: Deploy RKE2 or K3s Clusters on Nutanix
-    digest: 4b168ea928775196527d9eafcd7c6cb9a01e3b8a2884421889740fc9e6ccab19
+    digest: f69f8813099e245f2b5753010365fec66b8e6cc97d8f7fc11c70779632db104d
     icon: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Nutanix_Logo.svg/1024px-Nutanix_Logo.svg.png
     name: rancher-nutanix-cluster-template
     urls:
     - rancher-nutanix-cluster-template-0.1.0.tgz
     version: 0.1.0
-generated: "2024-08-16T13:04:24.366979447+05:30"
+generated: "2024-08-16T16:07:41.162641315+05:30"
